@@ -3,7 +3,6 @@ import { Control, useFieldArray, UseFormRegister, useWatch } from "react-hook-fo
 import { QuestionForm } from "./Survey";
 import ChoiceItem from "./ChoiceItem";
 
-{/**/ }{/**/ }{/**/ }{/**/ }{/**/ }
 interface Props {
   register: UseFormRegister<QuestionForm>;
   control: Control<QuestionForm>;
